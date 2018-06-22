@@ -8,6 +8,6 @@ services:
     ports:
       - "2222:22"
     volumes:
-    - ~/git-server/keys:/git-server/keys
-    - ~/git-server/repos:/git-server/repos
+    - /share/app-data/git-server/keys:/git-server/keys
+    - /share/app-data/git-server/repos:/git-server/repos
 
